@@ -8,7 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
-import { RegistroPage } from '../pages/registro/registro';
+//import { RegistroPage } from '../pages/registro/registro';
 
 
 
