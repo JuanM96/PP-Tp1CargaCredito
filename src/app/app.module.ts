@@ -15,7 +15,12 @@ import { LoginPage } from '../pages/login/login';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthService } from '../providers/auth-service/auth-service';
+//firebase
+//import { AngularFireModule } from 'angularfire2';
+//import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+
+//
 @NgModule({
   declarations: [
     MyApp,
@@ -27,7 +32,9 @@ import { AuthService } from '../providers/auth-service/auth-service';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp)//,
+    //AngularFireModule.initializeApp(firebaseConfig,'demo104'),
+    //AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

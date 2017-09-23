@@ -18,7 +18,7 @@ export class AuthService {
  
   public login(credentials) {
     if (credentials.email === null || credentials.password === null) {
-      return Observable.throw("Please insert credentials");
+      return Observable.throw("Porvavor No dejes campos vacios");
     } else {
       return Observable.create(observer => {
         // At this point make a request to your backend to make a real check!
@@ -33,7 +33,7 @@ export class AuthService {
  
   public register(credentials) {
     if (credentials.email === null || credentials.password === null) {
-      return Observable.throw("Please insert credentials");
+      return Observable.throw("Porvavor No dejes campos vacios");
     } else {
       // At this point store the credentials to your backend!
       return Observable.create(observer => {

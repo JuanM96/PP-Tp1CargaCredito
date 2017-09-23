@@ -27,7 +27,7 @@ export class LoginPage {
       if (allowed) {        
         this.nav.setRoot(TabsPage);
       } else {
-        this.showError("Access Denied");
+        this.showError("Acceso Denegado");
       }
     },
       error => {
@@ -37,7 +37,7 @@ export class LoginPage {
  
   showLoading() {
     this.loading = this.loadingCtrl.create({
-      content: 'Please wait...',
+      content: 'Espere Porfavor...',
       dismissOnPageChange: true
     });
     this.loading.present();
